@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta Nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boletim Escola</title>
+</head>
+<body>
+    <h1>Boletim Escolar</h1>
+    <div class="container2">
+    <!-- Abas para cada aluno -->
+    <button onclick="mostrarAba(1)">Aluno 1</button>
+    <button onclick="mostrarAba(2)">Aluno 2</button>
+    <button onclick="mostrarAba(3)">Aluno 3</button>
+    <button onclick="mostrarAba(4)">Aluno 4</button>
+    <button onclick="mostrarAba(5)">Aluno 5</button>
+  </div>
+    <!-- Containers para os alunos -->
+    <!-- Aluno 1 -->
+    <div class="container1">
+    <div id="aluno1" class="aba">
+        <div class="container">
+            <form>
+            <label for="alunoNome1">Aluno 1 Nome:</label>
+            <input type="text" id="alunoNome1" required>
+            <label for="nota11">1º Bimestre:</label>
+            <input type="number" id="nota11" min="0" max="100" step="1" required>
+            <label for="nota21">2º Bimestre:</label>
+            <input type="number" id="nota21" min="0" max="100" step="1" required>
+            <label for="nota31">3º Bimestre:</label>
+            <input type="number" id="nota31" min="0" max="100" step="1" required>
+            <label for="nota41">4º Bimestre:</label>
+            <input type="number" id="nota41" min="0" max="100" step="1" required>
+            </form>
+        </div>
+        <div id="resultado1" class="container"></div>
+    </div>
+
+    <div id="aluno2" class="aba">
+        <div class="container">
+            <form>
+            <label for="alunoNome2">Aluno 2 Nome:</label>
+            <input type="text" id="alunoNome2" required>
+            <label for="nota12">1º Bimestre:</label>
+            <input type="number" id="nota12" min="0" max="100" step="1" required>
+            <label for="nota22">2º Bimestre:</label>
+            <input type="number" id="nota22" min="0" max="100" step="1" required>
+            <label for="nota32">3º Bimestre:</label>
+            <input type="number" id="nota32" min="0" max="100" step="1" required>
+            <label for="nota42">4º Bimestre:</label>
+            <input type="number" id="nota42" min="0" max="100" step="1" required>
+            </form>
+        </div>
+        <div id="resultado2" class="container"></div>
+    </div>
+
+    <div id="aluno3" class="aba">
+        <div class="container">
+            <form>
+            <label for="alunoNome3">Aluno 3 Nome:</label>
+            <input type="text" id="alunoNome3" required>
+            <label for="nota13">1º Bimestre:</label>
+            <input type="number" id="nota13" min="0" max="100" step="1" required>
+            <label for="nota23">2º Bimestre:</label>
+            <input type="number" id="nota23" min="0" max="100" step="1" required>
+            <label for="nota33">3º Bimestre:</label>
+            <input type="number" id="nota33" min="0" max="100" step="1" required>
+            <label for="nota43">4º Bimestre:</label>
+            <input type="number" id="nota43" min="0" max="100" step="1" required>
+            </form>
+        </div>
+        <div id="resultado3" class="container"></div>
+    </div>
+
+    <div id="aluno4" class="aba">
+        <div class="container">
+            <form>
+            <label for="alunoNome4">Aluno 4 Nome:</label>
+            <input type="text" id="alunoNome4" required>
+            <label for="nota14">1º Bimestre:</label>
+            <input type="number" id="nota14" min="0" max="100" step="1" required>
+            <label for="nota24">2º Bimestre:</label>
+            <input type="number" id="nota24" min="0" max="100" step="1" required>
+            <label for="nota34">3º Bimestre:</label>
+            <input type="number" id="nota34" min="0" max="100" step="1" required>
+            <label for="nota44">4º Bimestre:</label>
+            <input type="number" id="nota44" min="0" max="100" step="1" required>
+            </form>
+        </div>
+        <div id="resultado4" class="container"></div>
+    </div>
+
+    <div id="aluno5" class="aba">
+        <div class="container">
+            <form>
+            <label for="alunoNome5">Aluno 5 Nome:</label>
+            <input type="text" id="alunoNome5" required>
+            <label for="nota15">1º Bimestre:</label>
+            <input type="number" id="nota15" min="0" max="100" step="1" required>
+            <label for="nota25">2º Bimestre:</label>
+            <input type="number" id="nota25" min="0" max="100" step="1" required>
+            <label for="nota35">3º Bimestre:</label>
+            <input type="number" id="nota35" min="0" max="100" step="1" required>
+            <label for="nota45">4º Bimestre:</label>
+            <input type="number" id="nota45" min="0" max="100" step="1" required>
+            </form>
+        </div>
+        <div id="resultado5" class="container"></div>
+    </div>
+
+    <!-- Média da turma -->
+    <div class="container" id="mediaTurma"></div>
+
+    <!-- Alunos abaixo da média -->
+    <div class="container" id="alunosAbaixoMedia"></div>
+
+    <!-- Botão para acionar a função -->
+    <button type="button" onclick="calcularBoletim()">Calcular</button>
+</div>
+
+<script src="js/Boletim.js"></script>
+</body>
+</html>

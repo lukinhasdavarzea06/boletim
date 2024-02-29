@@ -1,0 +1,146 @@
+body h1{
+    font-size: 50px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
+.aba {
+    display: none;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.aprovado {
+    background-color: lightgreen;
+}
+
+.recuperacao {
+    background-color: yellow;
+}
+
+.reprovado {
+    background-color: lightcoral;
+}
+
+
+
+#nota11, #nota21, #nota31, #nota41{
+    border-radius: 5px;
+    font-family: roboto sans-serif;
+}
+
+button{
+    border-radius: 5px;
+    transition-duration: 0,4s;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: #383838; 
+    color:white;
+}
+#nota12, #nota22, #nota32, #nota42{
+     border-radius: 5px;
+     font-family: roboto, sans-serif;
+}
+
+
+
+#nota13, #nota23, #nota33, #nota43{
+    border-radius: 5px;
+    font-family: roboto, sans-serif;
+}
+
+
+
+
+#nota14, #nota24, #nota34, #nota44{
+    border-radius: 5px;
+    font-family: roboto, sans-serif;
+}
+
+#nota15, #nota25, #nota35, #nota45{
+    border-radius: 5px;
+    font-family: roboto, sans-serif;
+}
+
+
+
+#resultado1{
+    
+    border-radius: 5px;
+    text-decoration: #000;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+
+}
+
+#resultado2{
+    
+    border-radius: 5px;
+    text-decoration: #000;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+
+}
+
+#resultado3{
+    
+    border-radius: 5px;
+    text-decoration: #000;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+
+}
+
+#resultado4{
+    
+    border-radius: 5px;
+    text-decoration: #000;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+
+}
+
+#resultado5{
+    border-radius: 5px;
+    text-decoration: #000;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+
+}
+
+#mediaTurma{
+  font-size: 15px;
+  font-family:roboto, sans-serif ;
+  border-radius: 10px;
+}
+
+#alunosAbaixoMedia:hover{
+    background-color:lightcoral ;
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+    border-radius: 10px;
+    transition-duration: 0,4s;
+}
+
+.container1{
+    text-align: center;
+    margin: 30px 150px;
+    
+}  
+.container2{
+    text-align: center;
+    gap:10%;
+}
+input{
+    border-radius: 5px;
+}
+
+
+
